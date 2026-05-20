@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Study Repository
 
-Welcome to the **Data Structures and Algorithms Study Repository**! This project serves as a comprehensive collection of my studies and practice with various data structures and algorithms. The goal is to deepen understanding, improve problem-solving skills, and prepare for technical interviews and real-world applications.
+Welcome to the **Data Structures and Algorithms Study Repository**! This project serves as a comprehensive collection of my studies and practice with various data structures, algorithms, and architectural principles.
 
 ## Table of Contents
 
@@ -9,81 +9,71 @@ Welcome to the **Data Structures and Algorithms Study Repository**! This project
 - [Project Structure](#project-structure)
 - [Data Structures Covered](#data-structures-covered)
 - [Algorithms Covered](#algorithms-covered)
+- [SOLID Principles](#solid-principles)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-This repository is a personal study guide for mastering data structures and algorithms. It includes implementations, explanations, and examples of various concepts. The code is primarily written in [Primary Programming Language(s)], and each topic is documented with comments and explanations.
+This repository is a personal study guide for mastering data structures, algorithms, and SOLID principles. It includes implementations, explanations, and examples of various concepts, primarily focused on technical interview preparation and clean code practices.
 
 ## Technologies Used
 
-- **Programming Languages:** [List of languages used, e.g., Python, JavaScript]
+- **Programming Languages:** Python, JavaScript, TypeScript
+- **Tools:** Node.js, Pytest, Tox, Mypy, Black
 
 ## Project Structure
 
-```
-├── data_structures/
-│   ├── arrays/
-│   ├── linked_lists/
-│   ├── stacks/
-│   ├── queues/
-│   ├── trees/
-│   ├── graphs/
-│   └── hash_tables/
+```text
 ├── algorithms/
-│   ├── sorting/
-│   ├── searching/
-│   ├── dynamic_programming/
-│   ├── greedy_algorithms/
-│   ├── graph_algorithms/
-│   └── backtracking/
-├── tests/
-│   ├── test_arrays.py
-│   ├── test_linked_lists.py
-│   └── ...
-├── docs/
-│   ├── arrays.md
-│   ├── linked_lists.md
-│   └── ...
-└── README.md
+│   ├── basics/           # Basic logic and loops
+│   ├── codility/         # Codility platform challenges (TS)
+│   ├── search/           # Binary search, binary trees, linked lists (JS/Py)
+│   └── sort/             # Bubble sort, insertion sort (JS)
+├── architechture/
+│   └── solid/            # SOLID principles exercises and examples (Python)
+├── data_structures/
+│   └── linked_list/      # Foundational linked list implementations
+├── docs/                 # Additional documentation
+└── tests/                # Automated tests
 ```
 
 ## Data Structures Covered
 
-- **Arrays**
-- **Linked Lists**
-- **Stacks**
-- **Queues**
-- **Trees**
-- **Graphs**
-- **Hash Tables**
+- **Linked Lists** (Singly Linked List)
+- **Binary Trees**
 
 ## Algorithms Covered
 
-- **Sorting Algorithms:** Bubble Sort, Quick Sort, Merge Sort, etc.
-- **Searching Algorithms:** Binary Search, Linear Search, etc.
-- **Dynamic Programming:** Fibonacci, Knapsack, etc.
-- **Greedy Algorithms:** Huffman Coding, Prim's Algorithm, etc.
-- **Graph Algorithms:** Dijkstra's Algorithm, Depth-First Search, etc.
-- **Backtracking:** N-Queens, Sudoku Solver, etc.
+- **Searching Algorithms:** Binary Search
+- **Sorting Algorithms:** Bubble Sort, Insertion Sort
+- **Challenges:** Codility (Binary Gap, Frog Jump, Cyclic Rotation, etc.)
+
+## SOLID Principles
+
+The repository includes a dedicated section for studying SOLID principles via practical exercises:
+- **S**ingle Responsibility Principle
+- **O**pen/Closed Principle
+- **L**iskov Substitution Principle
+- **I**nterface Segregation Principle
+- **D**ependency Inversion Principle
 
 ## How to Use
 
-1. **Clone the repository:**
+### JavaScript / TypeScript
+1. Ensure you have [Node.js](https://nodejs.org/) installed.
+2. Run a script:
    ```sh
-   git clone https://github.com/brunousml/data-structures-and-algorithms.git
+   node algorithms/search/javascript/binary_tree.mjs
    ```
-2. **Navigate to the project directory:**
-   ```sh
-   cd data-structures-and-algorithms
-   ```
-3. **Run the code:**
-   Depending on the language, use the appropriate command to run the scripts, e.g., `python file_name.py` for Python.
 
-4. **Run tests:**
+### Python
+1. Ensure you have [Python 3.9+](https://www.python.org/) installed.
+2. Run a script:
    ```sh
-   # Example using pytest for Python
-   pytest tests/
+   python data_structures/linked_list/python/linked_list.py
+   ```
+3. For SOLID exercises, you can use `tox` to run linting and tests:
+   ```sh
+   cd architechture/solid/linkedin-learning/.../
+   tox
    ```

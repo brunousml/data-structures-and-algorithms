@@ -2,7 +2,18 @@
 
 Welcome to the **Data Structures and Algorithms Study Repository**! This project serves as a comprehensive collection of my studies and practice with various data structures, algorithms, and architectural principles.
 
-## Table of Contents
+---
+
+### 🗺️ Navigation Menu
+**[🏠 Home](#data-structures-and-algorithms-study-repository)** | 
+**[📂 Project Structure](#project-structure)** | 
+**[🚀 Algorithms](#algorithms-covered)** | 
+**[📐 SOLID Principles](#solid-principles)** | 
+**[🛠️ How to Use](#how-to-use)**
+
+---
+
+## <a name="table-of-contents"></a>Table of Contents
 
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
@@ -16,10 +27,14 @@ Welcome to the **Data Structures and Algorithms Study Repository**! This project
 
 This repository is a personal study guide for mastering data structures, algorithms, and SOLID principles. It includes implementations, explanations, and examples of various concepts, primarily focused on technical interview preparation and clean code practices.
 
+[↑ Back to Top](#table-of-contents)
+
 ## Technologies Used
 
 - **Programming Languages:** Python, JavaScript, TypeScript
 - **Tools:** Node.js, Pytest, Tox, Mypy, Black
+
+[↑ Back to Top](#table-of-contents)
 
 ## Project Structure
 
@@ -37,16 +52,22 @@ This repository is a personal study guide for mastering data structures, algorit
 └── tests/                # Automated tests
 ```
 
+[↑ Back to Top](#table-of-contents)
+
 ## Data Structures Covered
 
 - **Linked Lists** (Singly Linked List)
 - **Binary Trees**
+
+[↑ Back to Top](#table-of-contents)
 
 ## Algorithms Covered
 
 - **Searching Algorithms:** Binary Search
 - **Sorting Algorithms:** Bubble Sort, Insertion Sort
 - **Challenges:** Codility (Binary Gap, Frog Jump, Cyclic Rotation, etc.)
+
+[↑ Back to Top](#table-of-contents)
 
 ## SOLID Principles
 
@@ -56,6 +77,8 @@ The repository includes a dedicated section for studying SOLID principles via pr
 - **L**iskov Substitution Principle
 - **I**nterface Segregation Principle
 - **D**ependency Inversion Principle
+
+[↑ Back to Top](#table-of-contents)
 
 ## How to Use
 
@@ -74,6 +97,8 @@ The repository includes a dedicated section for studying SOLID principles via pr
    ```
 3. For SOLID exercises, you can use `tox` to run linting and tests:
    ```sh
-   cd architechture/solid/linkedin-learning/.../
+   cd architechture/solid/linkedin-learning/Learning-SOLID-Programming-Principles/Ex_Files_Learning_SOLID_Programming_Principles/Exercise\ Files/
    tox
    ```
+
+[↑ Back to Top](#table-of-contents)

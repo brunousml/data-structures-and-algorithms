@@ -132,3 +132,5 @@ out/
 # Other
 .DS_Store
 Thumbs.db
+
+.qodo

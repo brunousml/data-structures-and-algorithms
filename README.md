@@ -4,81 +4,65 @@ Welcome to the **Data Structures and Algorithms Study Repository**! This project
 
 ---
 
-### 🗺️ Navigation Menu
-**[🏠 Home](#data-structures-and-algorithms-study-repository)** | 
-**[📂 Project Structure](#project-structure)** | 
-**[🚀 Algorithms](#algorithms-covered)** | 
-**[📐 SOLID Principles](#solid-principles)** | 
-**[🛠️ How to Use](#how-to-use)**
+## 🗺️ Navigation
+
+### 📂 Modules
+- **[🚀 Algorithms](./algorithms/)**
+    - [Basics](./algorithms/basics/) | [Codility](./algorithms/codility/javascript/) | [Search](./algorithms/search/) | [Sort](./algorithms/sort/)
+- **[📐 Architecture & SOLID](./architechture/solid/)**
+    - [Exercises](./architechture/solid/linkedin-learning/Learning-SOLID-Programming-Principles/Ex_Files_Learning_SOLID_Programming_Principles/Exercise%20Files/)
+- **[🏗️ Data Structures](./data_structures/)**
+    - [Linked List](./data_structures/linked_list/python/)
+- **[📝 Documentation](./docs/)** | **[🧪 Tests](./tests/)**
+
+### 📑 Quick Links
+[Introduction](#introduction) | [Technologies](#technologies-used) | [Project Structure](#project-structure) | [How to Use](#how-to-use)
 
 ---
-
-## <a name="table-of-contents"></a>Table of Contents
-
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Data Structures Covered](#data-structures-covered)
-- [Algorithms Covered](#algorithms-covered)
-- [SOLID Principles](#solid-principles)
-- [How to Use](#how-to-use)
 
 ## Introduction
 
 This repository is a personal study guide for mastering data structures, algorithms, and SOLID principles. It includes implementations, explanations, and examples of various concepts, primarily focused on technical interview preparation and clean code practices.
 
-[↑ Back to Top](#table-of-contents)
+[↑ Back to Top](#navigation)
 
 ## Technologies Used
 
 - **Programming Languages:** Python, JavaScript, TypeScript
 - **Tools:** Node.js, Pytest, Tox, Mypy, Black
 
-[↑ Back to Top](#table-of-contents)
+[↑ Back to Top](#navigation)
 
 ## Project Structure
 
 ```text
-├── algorithms/
-│   ├── basics/           # Basic logic and loops
-│   ├── codility/         # Codility platform challenges (TS)
-│   ├── search/           # Binary search, binary trees, linked lists (JS/Py)
-│   └── sort/             # Bubble sort, insertion sort (JS)
-├── architechture/
-│   └── solid/            # SOLID principles exercises and examples (Python)
-├── data_structures/
-│   └── linked_list/      # Foundational linked list implementations
-├── docs/                 # Additional documentation
+├── algorithms/           # Searching, sorting and platform challenges
+├── architechture/        # Architectural patterns and SOLID principles
+├── data_structures/      # Foundational data structure implementations
+├── docs/                 # Detailed documentation and studies
 └── tests/                # Automated tests
 ```
 
-[↑ Back to Top](#table-of-contents)
+[↑ Back to Top](#navigation)
 
-## Data Structures Covered
+## Detailed Content
 
-- **Linked Lists** (Singly Linked List)
-- **Binary Trees**
+### 🚀 Algorithms
+- **Searching:** Binary Search, Binary Trees.
+- **Sorting:** Bubble Sort, Insertion Sort.
+- **Challenges:** Codility (Binary Gap, Frog Jump, Cyclic Rotation, etc.).
+- [Explore Algorithms Folder](./algorithms/)
 
-[↑ Back to Top](#table-of-contents)
+### 🏗️ Data Structures
+- **Linked Lists:** Singly Linked List implementations.
+- [Explore Data Structures Folder](./data_structures/)
 
-## Algorithms Covered
+### 📐 SOLID Principles
+Practical exercises covering:
+- Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.
+- [Explore SOLID Folder](./architechture/solid/)
 
-- **Searching Algorithms:** Binary Search
-- **Sorting Algorithms:** Bubble Sort, Insertion Sort
-- **Challenges:** Codility (Binary Gap, Frog Jump, Cyclic Rotation, etc.)
-
-[↑ Back to Top](#table-of-contents)
-
-## SOLID Principles
-
-The repository includes a dedicated section for studying SOLID principles via practical exercises:
-- **S**ingle Responsibility Principle
-- **O**pen/Closed Principle
-- **L**iskov Substitution Principle
-- **I**nterface Segregation Principle
-- **D**ependency Inversion Principle
-
-[↑ Back to Top](#table-of-contents)
+[↑ Back to Top](#navigation)
 
 ## How to Use
 
@@ -101,4 +85,4 @@ The repository includes a dedicated section for studying SOLID principles via pr
    tox
    ```
 
-[↑ Back to Top](#table-of-contents)
+[↑ Back to Top](#navigation)
